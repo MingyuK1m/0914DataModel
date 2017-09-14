@@ -12,6 +12,10 @@
 		141028DE1F6A17DD0012CAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141028DC1F6A17DD0012CAFB /* Main.storyboard */; };
 		141028E01F6A17DD0012CAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141028DF1F6A17DD0012CAFB /* Assets.xcassets */; };
 		141028E31F6A17DD0012CAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141028E11F6A17DD0012CAFB /* LaunchScreen.storyboard */; };
+		141028ED1F6A18520012CAFB /* PinPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141028EC1F6A18520012CAFB /* PinPoint.swift */; };
+		141028EF1F6A198C0012CAFB /* 다운로드.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 141028EE1F6A198C0012CAFB /* 다운로드.jpeg */; };
+		141028F11F6A19930012CAFB /* dong.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 141028F01F6A19930012CAFB /* dong.JPG */; };
+		141028F31F6A1B1D0012CAFB /* ss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 141028F21F6A1B1D0012CAFB /* ss.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		141028DF1F6A17DD0012CAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141028E21F6A17DD0012CAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141028E41F6A17DD0012CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141028EC1F6A18520012CAFB /* PinPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinPoint.swift; sourceTree = "<group>"; };
+		141028EE1F6A198C0012CAFB /* 다운로드.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "다운로드.jpeg"; sourceTree = "<group>"; };
+		141028F01F6A19930012CAFB /* dong.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dong.JPG; sourceTree = "<group>"; };
+		141028F21F6A1B1D0012CAFB /* ss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ss.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		141028CC1F6A17DD0012CAFB = {
 			isa = PBXGroup;
 			children = (
+				141028EC1F6A18520012CAFB /* PinPoint.swift */,
 				141028D71F6A17DD0012CAFB /* 0914DataModel */,
 				141028D61F6A17DD0012CAFB /* Products */,
 			);
@@ -56,7 +65,10 @@
 			children = (
 				141028D81F6A17DD0012CAFB /* AppDelegate.swift */,
 				141028DA1F6A17DD0012CAFB /* ViewController.swift */,
+				141028F01F6A19930012CAFB /* dong.JPG */,
 				141028DC1F6A17DD0012CAFB /* Main.storyboard */,
+				141028F21F6A1B1D0012CAFB /* ss.jpeg */,
+				141028EE1F6A198C0012CAFB /* 다운로드.jpeg */,
 				141028DF1F6A17DD0012CAFB /* Assets.xcassets */,
 				141028E11F6A17DD0012CAFB /* LaunchScreen.storyboard */,
 				141028E41F6A17DD0012CAFB /* Info.plist */,
@@ -125,6 +137,9 @@
 			files = (
 				141028E31F6A17DD0012CAFB /* LaunchScreen.storyboard in Resources */,
 				141028E01F6A17DD0012CAFB /* Assets.xcassets in Resources */,
+				141028EF1F6A198C0012CAFB /* 다운로드.jpeg in Resources */,
+				141028F31F6A1B1D0012CAFB /* ss.jpeg in Resources */,
+				141028F11F6A19930012CAFB /* dong.JPG in Resources */,
 				141028DE1F6A17DD0012CAFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			files = (
 				141028DB1F6A17DD0012CAFB /* ViewController.swift in Sources */,
 				141028D91F6A17DD0012CAFB /* AppDelegate.swift in Sources */,
+				141028ED1F6A18520012CAFB /* PinPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
